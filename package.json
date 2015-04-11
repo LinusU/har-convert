@@ -1,0 +1,40 @@
+{
+  "version": "0.0.0",
+  "name": "unnamed",
+  "description": "unnamed",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "homepage": "https://github.com/ahmadnassri/unnamed",
+  "repository": "ahmadnassri/unnamed",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "bin": "./bin/unnamed",
+  "keywords": [
+    "unnamed"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/unnamed/issues"
+  },
+  "scripts": {
+    "test": "standard && mocha --reporter spec",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "codeclimate": "codeclimate < coverage/lcov.info"
+  },
+  "devDependencies": {
+    "codeclimate-test-reporter": "*",
+    "istanbul": "*",
+    "mocha": "*",
+    "should": "*",
+    "standard": "*"
+  },
+  "dependencies": {
+    "commander": "*",
+    "debug": "*"
+  }
+}

@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var cmd = require('commander')
+var debug = require('debug')('unnamed')
+var pkg = require('../package.json')
+var unnamed = require('../src')
+
+cmd
+  .version(pkg.version)
+  .usage('[options]')
+  .parse(process.argv)
+
+if (!cmd.args.length || !cmd.target) {
+  cmd.help()
+}
+
+unnamed()
