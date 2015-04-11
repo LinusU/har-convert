@@ -1,15 +1,17 @@
 {
   "version": "0.0.0",
-  "name": "unnamed",
-  "description": "unnamed",
+  "name": "har-convert",
+  "description": "har-convert",
   "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
-  "homepage": "https://github.com/ahmadnassri/unnamed",
-  "repository": "ahmadnassri/unnamed",
+  "homepage": "https://github.com/ahmadnassri/har-convert",
+  "repository": "ahmadnassri/har-convert",
   "license": "MIT",
   "main": "./src/index.js",
-  "bin": "./bin/unnamed",
+  "bin": "./bin/har-convert",
   "keywords": [
-    "unnamed"
+    "convert",
+    "har",
+    "http"
   ],
   "engines": {
     "node": ">=0.10"
@@ -19,7 +21,7 @@
     "src"
   ],
   "bugs": {
-    "url": "https://github.com/ahmadnassri/unnamed/issues"
+    "url": "https://github.com/ahmadnassri/har-convert/issues"
   },
   "scripts": {
     "test": "standard && mocha --reporter spec",
@@ -27,14 +29,14 @@
     "codeclimate": "codeclimate < coverage/lcov.info"
   },
   "devDependencies": {
-    "codeclimate-test-reporter": "*",
-    "istanbul": "*",
-    "mocha": "*",
-    "should": "*",
-    "standard": "*"
+    "codeclimate-test-reporter": "0.0.4",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.4",
+    "should": "^5.2.0",
+    "standard": "^3.5.0"
   },
   "dependencies": {
-    "commander": "*",
-    "debug": "*"
+    "commander": "^2.7.1",
+    "debug": "^2.1.3"
   }
 }

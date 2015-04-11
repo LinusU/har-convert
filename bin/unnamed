@@ -3,9 +3,9 @@
 'use strict'
 
 var cmd = require('commander')
-var debug = require('debug')('unnamed')
+var debug = require('debug')('har-convert')
 var pkg = require('../package.json')
-var unnamed = require('../src')
+var convert = require('../src')
 
 cmd
   .version(pkg.version)
@@ -16,4 +16,4 @@ if (!cmd.args.length || !cmd.target) {
   cmd.help()
 }
 
-unnamed()
+convert()

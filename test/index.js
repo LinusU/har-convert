@@ -2,13 +2,13 @@
 
 'use strict'
 
-var unnamed = require('..')
+var convert = require('..')
 
 require('should')
 
 describe('node module', function () {
   it('must have at least one test', function (done) {
-    unnamed()
+    convert()
 
     true.should.be.true
 
