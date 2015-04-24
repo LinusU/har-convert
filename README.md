@@ -29,13 +29,22 @@ npm install --save har-convert
 
 ## API
 
-### har-convert()
+### convert()
 
 ```js
-var har-convert = require('har-convert')
+var convert = require('har-convert')
 
-har-convert()
+convert()
 ```
+
+## Support
+
+Donations are welcome to help support the continuous development of this project.
+
+[![Gratipay][gratipay-image]][gratipay-url]
+[![PayPal][paypal-image]][paypal-url]
+[![Flattr][flattr-image]][flattr-url]
+[![Bitcoin][bitcoin-image]][bitcoin-url]
 
 ## License
 
@@ -57,3 +66,15 @@ har-convert()
 
 [david-url]: https://david-dm.org/ahmadnassri/har-convert
 [david-image]: https://img.shields.io/david/ahmadnassri/har-convert.svg?style=flat-square
+
+[gratipay-url]: https://www.gratipay.com/ahmadnassri/
+[gratipay-image]: https://img.shields.io/gratipay/ahmadnassri.svg?style=flat-square
+
+[paypal-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UJ2B2BTK9VLRS&on0=project&os0=har-convert
+[paypal-image]: http://img.shields.io/badge/paypal-donate-green.svg?style=flat-square
+
+[flattr-url]: https://flattr.com/submit/auto?user_id=codeinchaos&url=https://github.com/ahmadnassri/har-convert&title=har-convert&language=&tags=github&category=software
+[flattr-image]: http://img.shields.io/badge/flattr-donate-green.svg?style=flat-square
+
+[bitcoin-image]: http://img.shields.io/badge/bitcoin-1Nb46sZRVG3or7pNaDjthcGJpWhvoPpCxy-green.svg?style=flat-square
+[bitcoin-url]: https://www.coinbase.com/checkouts/7579a122f0cb2e7e4bbc2de9d780caa5
